@@ -1,0 +1,1440 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3/"
+     xml:base="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Absolutismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Absolutismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Abstenção -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Abstenção">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Amnistia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Amnistia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Anarquia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Anarquia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Forma_de_Governo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Anarquismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Anarquismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Aristocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Aristocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ativismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ativismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Autocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Autocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Autoritarismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Autoritarismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Bipartidarismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Bipartidarismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Burgomestre -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Burgomestre">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Burocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Burocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Capitão_Regente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Capitão_Regente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Caudilhismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Caudilhismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Centro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Centro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Espectro_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Chanceler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Chanceler">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Chauvinismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Chauvinismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ciência_Política -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ciência_Política">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Disciplina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Clandestinidade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Clandestinidade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Classe_de_Estado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Classe_de_Estado"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cleptocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cleptocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Clerocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Clerocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Clientelismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Clientelismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Coletivismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Coletivismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Colonialismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Colonialismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Colônia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Colônia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Classe_de_Estado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Comunismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Comunismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Condado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Condado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Divisão_Administrativa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Confederação -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Confederação">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Classe_de_Estado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congressista -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congressista">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congresso -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congresso">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conselho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conselho">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Divisão_Administrativa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conservadorismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conservadorismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Coronelismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Coronelismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Corporativismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Corporativismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Corporocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Corporocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Corrupção -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Corrupção">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Demagogia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Demagogia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Democracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Democracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Democracia_Cristã -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Democracia_Cristã">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Democracia_Direta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Democracia_Direta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Democracia_Representativa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Democracia_Representativa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Democracia_Semidireta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Democracia_Semidireta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Departamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Departamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Divisão_Administrativa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Deputado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Deputado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Desobediência_Civil -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Desobediência_Civil">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Despotismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Despotismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Forma_de_Governo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Diplomacia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Diplomacia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Disciplina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Direita -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Direita">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Espectro_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Disciplina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Disciplina"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Dissidência -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Dissidência">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Distrito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Distrito">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Divisão_Administrativa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ditador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ditador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ditadura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ditadura">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Divisão_Administrativa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Divisão_Administrativa"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Doutrina -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Doutrina">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Eleição -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Eleição">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Elitismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Elitismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Espectro_Político -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Espectro_Político"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Esquerda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Esquerda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Espectro_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Esquerdismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Esquerdismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Estadismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Estadismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Estado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Estado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Estado_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Estado_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Divisão_Administrativa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Estratocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Estratocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Forma_de_Governo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Executivo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Executivo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Poderes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Fascismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Fascismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Federação -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Federação">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Classe_de_Estado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Filosofia_Política -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Filosofia_Política">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Disciplina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Fisiologismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Fisiologismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Forma_de_Governo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Forma_de_Governo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Freguesia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Freguesia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Divisão_Administrativa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Geopolítica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Geopolítica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Disciplina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Golpe_de_Estado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Golpe_de_Estado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Governador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Governador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Governo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Governo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Grão_Duque -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Grão_Duque">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Hegemonia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Hegemonia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#História_Política -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#História_Política">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Disciplina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Impeachment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Impeachment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Imperador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Imperador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Imperialismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Imperialismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Império -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Império">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Classe_de_Estado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Indepedência -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Indepedência">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Intendente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Intendente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Intervencionismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Intervencionismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Intervenção -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Intervenção">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Isolacionismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Isolacionismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Judiciário -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Judiciário">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Poderes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Junta_Militar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Junta_Militar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Legislativo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Legislativo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Poderes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Legislatura -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Legislatura">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Liberalismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Liberalismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Liberdade -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Liberdade">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Libertarismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Libertarismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Lobby -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Lobby">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Meritocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Meritocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Metapolítica -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Metapolítica">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Disciplina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Minarquia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Minarquia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ministro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ministro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Moderador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Moderador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Poderes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Monarquia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Monarquia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Forma_de_Governo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Multiculturalismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Multiculturalismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Município -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Município">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Divisão_Administrativa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Nacionalismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Nacionalismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Nacionalismo_ -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Nacionalismo_">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Nazismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Nazismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Nação -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Nação">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Neoimperialismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Neoimperialismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Neonazismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Neonazismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Nepotismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Nepotismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Oclocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Oclocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Oligarquia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Oligarquia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Oposicionismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Oposicionismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Pacifismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Pacifismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Parlamentar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Parlamentar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Parlamentarismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Parlamentarismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Parlamento -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Parlamento">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Partido -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Partido">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Plebiscito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Plebiscito">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Pluripartidarismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Pluripartidarismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Plutocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Plutocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Poderes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Poderes"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Politeia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Politeia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Política_Internacional -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Política_Internacional">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Disciplina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Populismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Populismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Prefeito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Prefeito">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Presidencialismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Presidencialismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Presidente -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Presidente">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Primeiro-Ministro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Primeiro-Ministro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Principado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Principado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Classe_de_Estado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Protesto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Protesto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Protetorado -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Protetorado">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Classe_de_Estado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Província -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Província">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Divisão_Administrativa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Príncipe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Príncipe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Purga -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Purga">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Pátria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Pátria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Radicalismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Radicalismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Referendo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Referendo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regime -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regionalismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regionalismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regência -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regência">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Rei -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Rei">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Reino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Reino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Classe_de_Estado"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Repressão -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Repressão">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#República -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#República">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Forma_de_Governo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Resitência -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Resitência">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Revolução -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Revolução">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Processo"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Secretário -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Secretário">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Sectarismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Sectarismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Secularismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Secularismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Senador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Senador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Separatismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Separatismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Sionismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Sionismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Soberania -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Soberania">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Social_Democrata -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Social_Democrata">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Socialismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Socialismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Sociocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Sociocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Subversão -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Subversão">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Sufocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Sufocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Sufrágio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Sufrágio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Conceito"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Sultão -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Sultão">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tecnocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tecnocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Teocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Teocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Terrorismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Terrorismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Timocracia -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Timocracia">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tipo_de_Poder"/>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Totalitarismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Totalitarismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Regime"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Trabalhismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Trabalhismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tradicionalismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Tradicionalismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ultranacionalismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ultranacionalismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ideologia_Política"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Unipartidarismo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Unipartidarismo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Vereador -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Vereador">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Viés_Político -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Viés_Político">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Atitude"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
