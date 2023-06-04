@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-4="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#eAncestral -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#eAncestral">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#temComoAncestral"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mae"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pai"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Filho"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#eIrmao -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#eIrmao">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Irmao"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Irmao"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#possuiSexo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#possuiSexo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pessoa"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Sexo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#temComoAncestral -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#temComoAncestral">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Filho"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mae"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pai"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Avo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Avo">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Homem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#eAncestral"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mae"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pai"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Homem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Avoh -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Avoh">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mulher"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#eAncestral"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mae"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pai"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mulher"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Filho -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Filho">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pessoa"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#temComoAncestral"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pessoa"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Homem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Homem">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pessoa"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#possuiSexo"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#SexoMasculino"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pessoa"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mulher"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Irmao -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Irmao">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pessoa"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#eIrmao"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Irmao"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mae -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mae">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mulher"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#eAncestral"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Filho"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mulher"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mulher -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mulher">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pessoa"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#possuiSexo"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#SexoFeminino"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pessoa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pai -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pai">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Homem"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#eAncestral"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Filho"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Homem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pessoa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Pessoa">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#possuiSexo"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Sexo"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Sexo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Sexo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#SexoFeminino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#SexoFeminino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Sexo"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#SexoMasculino"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#SexoMasculino -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#SexoMasculino">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Sexo"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#gustavo -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#gustavo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <temComoAncestral rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#joana"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#joana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#joana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mulher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#joao -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#joao">
+        <rdf:type rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Homem"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#jose -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#jose">
+        <rdf:type rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Homem"/>
+        <eAncestral rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#gustavo"/>
+        <temComoAncestral rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#joao"/>
+        <temComoAncestral rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#maria"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#maria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#maria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/carlos/ontologies/2014/9/untitled-ontology-4#Mulher"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
