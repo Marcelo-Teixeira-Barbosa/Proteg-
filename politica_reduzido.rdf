@@ -30,7 +30,7 @@
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congressista"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Deputado"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ditador"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Prefeito"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Vereador"/>
                 </owl:unionOf>
             </owl:Class>
@@ -44,17 +44,35 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#eEleitoPor">
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#podeElegerUm"/>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
         <rdfs:domain>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congressista"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Deputado"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Prefeito"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Vereador"/>
                 </owl:unionOf>
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cidadão"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#eFunçãoPolítica -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#eFunçãoPolítica">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Executivo"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Judiciário"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Legislativo"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Democracia"/>
     </owl:ObjectProperty>
     
 
@@ -68,7 +86,7 @@
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congressista"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Deputado"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ditador"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Prefeito"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Vereador"/>
                 </owl:unionOf>
             </owl:Class>
@@ -81,13 +99,14 @@
     <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#podeElegerUm -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#podeElegerUm">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cidadão"/>
         <rdfs:range>
             <owl:Class>
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congressista"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Deputado"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Prefeito"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Vereador"/>
                 </owl:unionOf>
             </owl:Class>
@@ -105,7 +124,7 @@
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congressista"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Deputado"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ditador"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Prefeito"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Vereador"/>
                 </owl:unionOf>
             </owl:Class>
@@ -115,7 +134,7 @@
                 <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congressista"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Deputado"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ditador"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Prefeito"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Vereador"/>
                 </owl:unionOf>
             </owl:Class>
@@ -134,7 +153,7 @@
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cidadão"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congressista"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Deputado"/>
-                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ditador"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Prefeito"/>
                     <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Vereador"/>
                 </owl:unionOf>
             </owl:Class>
@@ -265,7 +284,29 @@
 
     <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cidadão -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cidadão"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cidadão">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Pessoa"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#podeElegerUm"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congressista"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Deputado"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Prefeito"/>
+                                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Vereador"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Pessoa"/>
+    </owl:Class>
     
 
 
@@ -294,6 +335,17 @@
     <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congressista -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Congressista">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#eEleitoPor"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cidadão"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
     </owl:Class>
     
@@ -310,6 +362,17 @@
     <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Deputado -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Deputado">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#eEleitoPor"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cidadão"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
     </owl:Class>
     
@@ -334,14 +397,6 @@
     <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Disciplina -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Disciplina"/>
-    
-
-
-    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ditador -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Ditador">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
-    </owl:Class>
     
 
 
@@ -497,6 +552,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Pessoa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Pessoa"/>
+    
+
+
     <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Poderes -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Poderes"/>
@@ -507,6 +568,25 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Política_Internacional">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Disciplina"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Prefeito -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Prefeito">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#eEleitoPor"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cidadão"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
     </owl:Class>
     
 
@@ -572,8 +652,36 @@
     <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Vereador -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Vereador">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#eEleitoPor"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cidadão"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cargo_Político"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#asdds -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#asdds"/>
 </rdf:RDF>
 
 
