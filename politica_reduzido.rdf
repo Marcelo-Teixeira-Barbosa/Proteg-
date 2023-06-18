@@ -679,9 +679,27 @@
     
 
 
-    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#asdds -->
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Bruno -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#asdds"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Bruno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cidadão"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Carlos -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Carlos">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cidadão"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Marcelo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Marcelo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marce/ontologies/2023/4/untitled-ontology-3#Cidadão"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
